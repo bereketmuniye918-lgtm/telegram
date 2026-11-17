@@ -210,7 +210,7 @@ if (urlParams.get('admin') === 'true') {
 // Admin close button handler
 adminCloseBtn.addEventListener('click', () => {
     adminPage.classList.remove('active');
-    document.body.style.overflow = 'auto');
+    document.body.style.overflow = 'auto';
 });
 
 // Clear all data button handler
